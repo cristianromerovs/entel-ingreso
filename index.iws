@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Planes Hogar | Entel</title>
+    <meta content="Planes | Entel" name="Title" />
+    <meta content="Planes" name="Description" />
+    <link rel="canonical" href="https://www.entel.cl/planes-test/" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/public/images/favicon-entel.ico" />
+
+    <!-- META NUEVO -->
+    <!--#include virtual="/public/includes/metadatos.iws" -->
+
+    <!-- CSS header -->
+    <!--#include virtual="/public/includes/header-simple/header-simple-css.iws" -->
+
+    <!-- CSS footer -->
+    <!--#include virtual="/public/includes/footer-simple/footer-simple-css.iws" -->
+
+    <!-- FONT BARLOW -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS PUBLICOS -->
+    <link rel="stylesheet" href="/public/css/slick.min.css?v=90" type="text/css"/>
+    <link rel="stylesheet" href="/public/css/slick-theme.min.css?v=850" type="text/css"/>
+
+    <!-- CSS LOCAL -->
+    <link rel="stylesheet" href="css/estilos.css"/>
+
+    <!-- TAG MANAGER -->
+    <!--#include virtual="/personas/home/includes/tag-manager.iws" -->
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <!--#include virtual="/public/includes/header-simple/index.iws" -->
+
+    <!-- TAG MANAGER NONSCRIPT -->
+    <!--#include virtual="/personas/home/includes/tag-manager-no-script.iws" -->
+
+    <!-- SECTION HERO -->
+    <section class="section-banner">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-5 texto-banner">
+            <div class="instalacion-gratis">
+              <picture>
+                <source type="image/svg+xml" srcset="img/svg/24-horas.svg">
+                <img src="img/png/24-horas.png" alt="24-horas">
+              </picture>
+              <p>Instalación <b>gratis</b></p>
+            </div>
+            <h2>Doble Pack <b>Fibra 250</b></h2>
+            <h4>Hasta 250 Mbps de bajada</h4>
+            <div class="row precio">
+              <div class="col col-md-12">
+                <div class="solo">
+                  sólo
+                </div>
+                <div class="valor"><span>$</span> 36.990</div>
+                <div class="mes">/mes</div>
+              </div>
+              <div class="col col-md-12"></div>
+            </div>
+            <div class="row lo-quiero">
+              <div class="col col-md-12 d-flex justify-content-center justify-content-md-end">
+                <a class="btn btn-orange" href="#" role="button" data-producto="" data-precio="" data-subprecio=""
+                  data-descripcion="" data-mercado="" data-segmento="">
+                  Lo quiero
+                </a>
+              </div>
+              <div class="col col-md-12"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- SECTION 01 -->
+    <section class="tabs-nav">
+      <!-- TABS -->
+      <ul class="nav nav-tabs nav-pills nav-justified" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active d-flex flex-column" id="home-tab" data-toggle="tab" href="#home" role="tab"
+            aria-controls="home" aria-selected="true">
+            <picture>
+              <source type="image/svg+xml" srcset="img/svg/llamada.svg">
+              <img src="img/png/llamada-gris.png" alt="planes-moviles">
+            </picture>
+            <p>Planes Móviles</p>
+          </a>
+        </li>
+        <li class="nav-item middle">
+          <a class="nav-link d-flex flex-column" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+            aria-controls="profile" aria-selected="false">
+            <picture>
+              <source type="image/svg+xml" srcset="img/svg/hogar.svg">
+              <img src="img/png/hogar-gris.png" alt="planes-moviles">
+            </picture>
+            <p>Packs Hogar</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex flex-column" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+            aria-controls="contact" aria-selected="false">
+            <picture>
+              <source type="image/svg+xml" srcset="img/svg/equipos.svg">
+              <img src="img/png/equipos-gris.png" alt="planes-moviles">
+            </picture>
+            <p>Equipos y Accesorios</p>
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <!-- TAB 1 CONTENT -->
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="container">
+            <div class="row">
+              <div class="container-fluid up-text">
+                <p>Selecciona y mejora tu plan actual</p>
+              </div>
+              <!-- CARD 1 -->
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-producto">
+                  <div class="card-section-1">
+                    <div class="doble-pack">Doble pack <b>Fibra 250</b></div>
+                  </div>
+                  <div class="card-section-2">
+                    <div class="d-flex align-items-end">
+                      <p>$36.990</p>
+                    </div>
+                    <div class="d-flex align-items-end mes"><span>/mes</span></div>
+                  </div>
+
+                  <div class="card-section-3"></div>
+
+                  <div class="card-section-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col section-4-left">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/home-wifi.svg">
+                            <img src="img/png/home-wifi.png" alt="planes-moviles">
+                          </picture>
+                          <p id="color-azul">Nuevo fibra <br> <b>Wifi Total</b></p>
+                          <p>Hasta <b>940 Mbps</b> <br> de bajada</p>
+                        </div>
+                        <div class="col section-4-right">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/tv.svg">
+                            <img src="img/png/tv.png" alt="planes-moviles">
+                          </picture>
+                          <p><b>83 canales</b><br>incluye 65 HD</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-section-5 d-flex justify-content-center"></div>
+
+                  <div class="card-section-6 d-flex justify-content-center">
+                    <p>Costo de instalación</p>
+                    <p id="overline">$50.000</p>
+                    <p><b>$0</b></p>
+                  </div>
+
+                  <div class="card-section-7">
+                    <a class="btn btn-orange gtm_planes_btn_cta" href="#" role="button" data-plan="" data-planprecio=""
+                      data-subprecio="" data-posicion="" data-oferta="">
+                      Lo quiero
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 2 -->
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-producto">
+                  <div class="card-section-1">
+                    <div class="doble-pack">Doble pack <b>Fibra 500</b></div>
+                    <div class="mas-vendidos">
+                      <picture>
+                        <source type="image/svg+xml" srcset="img/svg/mas-vendido.svg">
+                        <img src="img/png/mas-vendido.png" alt="mas-vendido">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="card-section-2">
+                    <div class="d-flex align-items-end">
+                      <p>$37.990</p>
+                    </div>
+                    <div class="d-flex align-items-end mes"><span>/mes</span></div>
+                  </div>
+
+                  <div class="card-section-3">
+                    <p>Por 6 meses, luego $44.990</p>
+                  </div>
+                  <div class="card-section-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col section-4-left">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/home-wifi.svg">
+                            <img src="img/png/home-wifi.png" alt="planes-moviles">
+                          </picture>
+                          <p id="color-azul">Nuevo fibra <br> <b>Wifi Total</b></p>
+                          <p>Hasta <b>500 Mbps</b> <br> de bajada</p>
+                        </div>
+                        <div class="col section-4-right">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/tv.svg">
+                            <img src="img/png/tv.png" alt="planes-moviles">
+                          </picture>
+                          <p><b>83 canales</b><br>incluye 65 HD</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-section-5 d-flex justify-content-center" id="bg-gris">
+                    <p>Incluye Wifi Principal +</p>
+                    <p id="color-azul">1 extensor adicional</p>
+                  </div>
+
+                  <div class="card-section-6 d-flex justify-content-center">
+                    <p>Costo de instalación</p>
+                    <p id="overline">$50.000</p>
+                    <p><b>$0</b></p>
+                  </div>
+
+                  <div class="card-section-7">
+                    <a class="btn btn-orange gtm_planes_btn_cta" href="#" role="button" data-plan="" data-planprecio=""
+                      data-subprecio="" data-posicion="" data-oferta="">
+                      Lo quiero
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 3 -->
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-producto">
+                  <div class="card-section-1">
+                    <div class="doble-pack">Doble pack <b>Fibra Giga</b></div>
+                    <div class="mas-vendidos">
+                      <picture>
+                        <source type="image/svg+xml" srcset="img/svg/mas-vendido.svg">
+                        <img src="img/png/mas-vendido.png" alt="mas-vendido">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="card-section-2">
+                    <div class="d-flex align-items-end">
+                      <p>$45.990</p>
+                    </div>
+                    <div class="d-flex align-items-end mes"><span>/mes</span></div>
+                  </div>
+
+                  <div class="card-section-3">
+                    <p>Por 6 meses, luego $56.990</p>
+                  </div>
+                  <div class="card-section-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col section-4-left">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/home-wifi.svg">
+                            <img src="img/png/home-wifi.png" alt="planes-moviles">
+                          </picture>
+                          <p id="color-azul">Nuevo fibra <br> <b>Wifi Total</b></p>
+                          <p>Hasta <b>940 Mbps</b> <br> de bajada</p>
+                        </div>
+                        <div class="col section-4-right">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/tv.svg">
+                            <img src="img/png/tv.png" alt="planes-moviles">
+                          </picture>
+                          <p><b>83 canales</b><br>incluye 65 HD</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-section-5 d-flex justify-content-center" id="bg-gris">
+                    <p>Incluye Wifi Principal +</p>
+                    <p id="color-azul">2 extensores adicionales</p>
+                  </div>
+
+                  <div class="card-section-6 d-flex justify-content-center">
+                    <p>Costo de instalación</p>
+                    <p id="overline">$50.000</p>
+                    <p><b>$0</b></p>
+                  </div>
+
+                  <div class="card-section-7">
+                    <a class="btn btn-orange gtm_planes_btn_cta" href="#" role="button" data-plan="" data-planprecio=""
+                      data-subprecio="" data-posicion="" data-oferta="">
+                      Lo quiero
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- TAB 2 CONTENT -->
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="container">
+            <div class="row">
+              <div class="container-fluid up-text">
+                <p>Selecciona y mejora tu plan actual</p>
+              </div>
+              <!-- CARD 1 -->
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-producto">
+                  <div class="card-section-1">
+                    <div class="doble-pack">Doble pack <b>Fibra 250</b></div>
+                  </div>
+                  <div class="card-section-2">
+                    <div class="d-flex align-items-end">
+                      <p>$36.990</p>
+                    </div>
+                    <div class="d-flex align-items-end mes"><span>/mes</span></div>
+                  </div>
+
+                  <div class="card-section-3"></div>
+
+                  <div class="card-section-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col section-4-left">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/home-wifi.svg">
+                            <img src="img/png/home-wifi.png" alt="planes-moviles">
+                          </picture>
+                          <p id="color-azul">Nuevo fibra <br> <b>Wifi Total</b></p>
+                          <p>Hasta <b>940 Mbps</b> <br> de bajada</p>
+                        </div>
+                        <div class="col section-4-right">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/tv.svg">
+                            <img src="img/png/tv.png" alt="planes-moviles">
+                          </picture>
+                          <p><b>83 canales</b><br>incluye 65 HD</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-section-5 d-flex justify-content-center"></div>
+
+                  <div class="card-section-6 d-flex justify-content-center">
+                    <p>Costo de instalación</p>
+                    <p id="overline">$50.000</p>
+                    <p><b>$0</b></p>
+                  </div>
+
+                  <div class="card-section-7">
+                    <a class="btn btn-orange gtm_planes_btn_cta" href="#" role="button" data-plan="" data-planprecio=""
+                      data-subprecio="" data-posicion="" data-oferta="">
+                      Lo quiero
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 2 -->
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-producto">
+                  <div class="card-section-1">
+                    <div class="doble-pack">Doble pack <b>Fibra 500</b></div>
+                    <div class="mas-vendidos">
+                      <picture>
+                        <source type="image/svg+xml" srcset="img/svg/mas-vendido.svg">
+                        <img src="img/png/mas-vendido.png" alt="mas-vendido">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="card-section-2">
+                    <div class="d-flex align-items-end">
+                      <p>$37.990</p>
+                    </div>
+                    <div class="d-flex align-items-end mes"><span>/mes</span></div>
+                  </div>
+
+                  <div class="card-section-3">
+                    <p>Por 6 meses, luego $44.990</p>
+                  </div>
+                  <div class="card-section-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col section-4-left">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/home-wifi.svg">
+                            <img src="img/png/home-wifi.png" alt="planes-moviles">
+                          </picture>
+                          <p id="color-azul">Nuevo fibra <br> <b>Wifi Total</b></p>
+                          <p>Hasta <b>500 Mbps</b> <br> de bajada</p>
+                        </div>
+                        <div class="col section-4-right">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/tv.svg">
+                            <img src="img/png/tv.png" alt="planes-moviles">
+                          </picture>
+                          <p><b>83 canales</b><br>incluye 65 HD</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-section-5 d-flex justify-content-center" id="bg-gris">
+                    <p>Incluye Wifi Principal +</p>
+                    <p id="color-azul">1 extensor adicional</p>
+                  </div>
+
+                  <div class="card-section-6 d-flex justify-content-center">
+                    <p>Costo de instalación</p>
+                    <p id="overline">$50.000</p>
+                    <p><b>$0</b></p>
+                  </div>
+
+                  <div class="card-section-7">
+                    <a class="btn btn-orange gtm_planes_btn_cta" href="#" role="button" data-plan="" data-planprecio=""
+                      data-subprecio="" data-posicion="" data-oferta="">
+                      Lo quiero
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 3 -->
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-producto">
+                  <div class="card-section-1">
+                    <div class="doble-pack">Doble pack <b>Fibra Giga</b></div>
+                    <div class="mas-vendidos">
+                      <picture>
+                        <source type="image/svg+xml" srcset="img/svg/mas-vendido.svg">
+                        <img src="img/png/mas-vendido.png" alt="mas-vendido">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="card-section-2">
+                    <div class="d-flex align-items-end">
+                      <p>$45.990</p>
+                    </div>
+                    <div class="d-flex align-items-end mes"><span>/mes</span></div>
+                  </div>
+
+                  <div class="card-section-3">
+                    <p>Por 6 meses, luego $56.990</p>
+                  </div>
+                  <div class="card-section-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col section-4-left">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/home-wifi.svg">
+                            <img src="img/png/home-wifi.png" alt="planes-moviles">
+                          </picture>
+                          <p id="color-azul">Nuevo fibra <br> <b>Wifi Total</b></p>
+                          <p>Hasta <b>940 Mbps</b> <br> de bajada</p>
+                        </div>
+                        <div class="col section-4-right">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/tv.svg">
+                            <img src="img/png/tv.png" alt="planes-moviles">
+                          </picture>
+                          <p><b>83 canales</b><br>incluye 65 HD</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-section-5 d-flex justify-content-center" id="bg-gris">
+                    <p>Incluye Wifi Principal +</p>
+                    <p id="color-azul">2 extensores adicionales</p>
+                  </div>
+
+                  <div class="card-section-6 d-flex justify-content-center">
+                    <p>Costo de instalación</p>
+                    <p id="overline">$50.000</p>
+                    <p><b>$0</b></p>
+                  </div>
+
+                  <div class="card-section-7">
+                    <a class="btn btn-orange gtm_planes_btn_cta" href="#" role="button" data-plan="" data-planprecio=""
+                      data-subprecio="" data-posicion="" data-oferta="">
+                      Lo quiero
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- TAB 3 CONTENT -->
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="container">
+            <div class="row">
+              <div class="container-fluid up-text">
+                <p>Selecciona y mejora tu plan actual</p>
+              </div>
+              <!-- CARD 1 -->
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-producto">
+                  <div class="card-section-1">
+                    <div class="doble-pack">Doble pack <b>Fibra 250</b></div>
+                  </div>
+                  <div class="card-section-2">
+                    <div class="d-flex align-items-end">
+                      <p>$36.990</p>
+                    </div>
+                    <div class="d-flex align-items-end mes"><span>/mes</span></div>
+                  </div>
+
+                  <div class="card-section-3"></div>
+
+                  <div class="card-section-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col section-4-left">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/home-wifi.svg">
+                            <img src="img/png/home-wifi.png" alt="planes-moviles">
+                          </picture>
+                          <p id="color-azul">Nuevo fibra <br> <b>Wifi Total</b></p>
+                          <p>Hasta <b>940 Mbps</b> <br> de bajada</p>
+                        </div>
+                        <div class="col section-4-right">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/tv.svg">
+                            <img src="img/png/tv.png" alt="planes-moviles">
+                          </picture>
+                          <p><b>83 canales</b><br>incluye 65 HD</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-section-5 d-flex justify-content-center"></div>
+
+                  <div class="card-section-6 d-flex justify-content-center">
+                    <p>Costo de instalación</p>
+                    <p id="overline">$50.000</p>
+                    <p><b>$0</b></p>
+                  </div>
+
+                  <div class="card-section-7">
+                    <a class="btn btn-orange gtm_planes_btn_cta" href="#" role="button" data-plan="" data-planprecio=""
+                      data-subprecio="" data-posicion="" data-oferta="">
+                      Lo quiero
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 2 -->
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-producto">
+                  <div class="card-section-1">
+                    <div class="doble-pack">Doble pack <b>Fibra 500</b></div>
+                    <div class="mas-vendidos">
+                      <picture>
+                        <source type="image/svg+xml" srcset="img/svg/mas-vendido.svg">
+                        <img src="img/png/mas-vendido.png" alt="mas-vendido">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="card-section-2">
+                    <div class="d-flex align-items-end">
+                      <p>$37.990</p>
+                    </div>
+                    <div class="d-flex align-items-end mes"><span>/mes</span></div>
+                  </div>
+
+                  <div class="card-section-3">
+                    <p>Por 6 meses, luego $44.990</p>
+                  </div>
+                  <div class="card-section-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col section-4-left">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/home-wifi.svg">
+                            <img src="img/png/home-wifi.png" alt="planes-moviles">
+                          </picture>
+                          <p id="color-azul">Nuevo fibra <br> <b>Wifi Total</b></p>
+                          <p>Hasta <b>500 Mbps</b> <br> de bajada</p>
+                        </div>
+                        <div class="col section-4-right">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/tv.svg">
+                            <img src="img/png/tv.png" alt="planes-moviles">
+                          </picture>
+                          <p><b>83 canales</b><br>incluye 65 HD</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-section-5 d-flex justify-content-center" id="bg-gris">
+                    <p>Incluye Wifi Principal +</p>
+                    <p id="color-azul">1 extensor adicional</p>
+                  </div>
+
+                  <div class="card-section-6 d-flex justify-content-center">
+                    <p>Costo de instalación</p>
+                    <p id="overline">$50.000</p>
+                    <p><b>$0</b></p>
+                  </div>
+
+                  <div class="card-section-7">
+                    <a class="btn btn-orange gtm_planes_btn_cta" href="#" role="button" data-plan="" data-planprecio=""
+                      data-subprecio="" data-posicion="" data-oferta="">
+                      Lo quiero
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 3 -->
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-producto">
+                  <div class="card-section-1">
+                    <div class="doble-pack">Doble pack <b>Fibra Giga</b></div>
+                    <div class="mas-vendidos">
+                      <picture>
+                        <source type="image/svg+xml" srcset="img/svg/mas-vendido.svg">
+                        <img src="img/png/mas-vendido.png" alt="mas-vendido">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="card-section-2">
+                    <div class="d-flex align-items-end">
+                      <p>$45.990</p>
+                    </div>
+                    <div class="d-flex align-items-end mes"><span>/mes</span></div>
+                  </div>
+
+                  <div class="card-section-3">
+                    <p>Por 6 meses, luego $56.990</p>
+                  </div>
+                  <div class="card-section-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col section-4-left">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/home-wifi.svg">
+                            <img src="img/png/home-wifi.png" alt="planes-moviles">
+                          </picture>
+                          <p id="color-azul">Nuevo fibra <br> <b>Wifi Total</b></p>
+                          <p>Hasta <b>940 Mbps</b> <br> de bajada</p>
+                        </div>
+                        <div class="col section-4-right">
+                          <picture>
+                            <source type="image/svg+xml" srcset="img/svg/tv.svg">
+                            <img src="img/png/tv.png" alt="planes-moviles">
+                          </picture>
+                          <p><b>83 canales</b><br>incluye 65 HD</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-section-5 d-flex justify-content-center" id="bg-gris">
+                    <p>Incluye Wifi Principal +</p>
+                    <p id="color-azul">2 extensores adicionales</p>
+                  </div>
+
+                  <div class="card-section-6 d-flex justify-content-center">
+                    <p>Costo de instalación</p>
+                    <p id="overline">$50.000</p>
+                    <p><b>$0</b></p>
+                  </div>
+
+                  <div class="card-section-7">
+                    <a class="btn btn-orange gtm_planes_btn_cta" href="#" role="button" data-plan="" data-planprecio=""
+                      data-subprecio="" data-posicion="" data-oferta="">
+                      Lo quiero
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 02 -->
+    <section class="section-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="left-title">
+              <h2>Conoce la nueva experiencia de <b>Fibra Wifi Total</b></h2>
+            </div>
+            <div class="row cards-left">
+              <!-- CARD 1 -->
+              <div class="col-12 col-md-6">
+                <div class="card-wifi">
+                  <div class="card-title">
+                    <picture>
+                      <source type="image/svg+xml" srcset="img/svg/comparte.svg">
+                      <img src="img/png/comparte.png" alt="24-horas">
+                    </picture>
+                    <h4>Mayor alcance</h4>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      Todos nuestros planes incluyen un Wifi Principal, los planes de 500 y Giga
+                      incluyen 1 y 2 extensores Wifi adicionales respectivamente, sin costo para
+                      llegar donde otros no llegan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 2 -->
+              <div class="col-12 col-md-6">
+                <div class="card-wifi">
+                  <div class="card-title">
+                    <h4>Elige tu plan según tus necesidades</h4>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      Saca el mejor partido a tu plan según las características y condiciones de tu
+                      hogar.
+                    </p>
+                    <a class="btn btn-white gtm_planes_btn_info" data-plan="" data-planprecio="" data-plansubprecio=""
+                      data-posicion="" data-oferta="" data-mercado="" data-segmento="" href="#" role="button">
+                      Saber más
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 3 -->
+              <div class="col-12 col-md-6">
+                <div class="card-wifi">
+                  <div class="card-title">
+                    <h4>Agrega extensores adicionales</h4>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      Si quieres tener aun más alcance con tu Wifi, puedes contratar Extensores
+                      adicionales por $2.990 /mes.
+                    </p>
+                    <a class="btn btn-white gtm_planes_btn_info" data-plan="" data-planprecio="" data-plansubprecio=""
+                      data-posicion="" data-oferta="" data-mercado="" data-segmento="" href="#" role="button">
+                      Saber más
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 4 -->
+              <div class="col-12 col-md-6">
+                <div class="card-wifi">
+                  <div class="card-title">
+                    <h4>Conoce tu factibilidad</h4>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      Disponibilidad de los servicios para en tu comuna.
+                    </p>
+                    <a class="btn btn-green" href="#" role="button">Revisa tu Factibilidad</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="right-title">
+              <h2>Descubre todo lo que puedes hacer con tu App</h2>
+            </div>
+            <!-- CAROUSEL BOOTSTRAP (Reemplazar por Slick) -->
+            <div class="container">
+              <div class="row card-slick">
+                <div class="col-12">
+                  <img src="img/png/slider.png" class="d-block w-100" alt="descubre-tu-app">
+                </div>
+                <div class="col-12">
+                  <img src="img/png/slider.png" class="d-block w-100" alt="descubre-tu-app">
+                </div>
+                <div class="col-12">
+                  <img src="img/png/slider.png" class="d-block w-100" alt="descubre-tu-app">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <!--#include virtual="/public/includes/footer-simple/index.iws" -->
+    <!--#include virtual="/public/includes/librerias-js.iws" -->
+
+    <script type="text/javascript" src="/public/js/slick.min.js?v=7"></script>
+    <script src="js/scripts-slick.js"></script>
+  </body>
+</html>

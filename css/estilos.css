@@ -1,0 +1,644 @@
+/* GLOBALES */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Barlow', sans-serif;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.row:after,
+.row:before {
+  display: inline-block !important;
+}
+
+/* SECTION HERO */
+
+section.section-banner .texto-banner {
+  margin: 5vh 1vw;
+}
+
+section.section-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-image: url(../img/png/banner-responsive-small.png);
+  border-radius: 10px;
+  margin: 10px 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+}
+
+section.section-banner .texto-banner .instalacion-gratis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section.section-banner .texto-banner .instalacion-gratis img{
+  width: 40px;
+  height: 40px;
+  margin-right: 2px;
+}
+
+section.section-banner .texto-banner .instalacion-gratis p {
+  color: #002EFF;
+  font-size: 14px;
+}
+
+section.section-banner h2 {
+  color: #020247;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+
+section.section-banner h4 {
+  color: #020247;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+section.section-banner .texto-banner .precio .col{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section.section-banner .texto-banner .precio .solo {
+  font-size: 12px;
+  color: #020247;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 0px 0px 0px;
+}
+
+section.section-banner .texto-banner .precio .valor {
+  font-size: 37px;
+  color: #FD6C98;
+  font-weight: 700;
+}
+
+section.section-banner .texto-banner .precio .valor span {
+  font-size: 24px;
+  color: #FD6C98;
+  font-weight: 700;
+}
+
+section.section-banner .texto-banner .precio .peso {
+  font-size: 24px;
+  color: #FD6C98;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-end;
+}
+
+section.section-banner .texto-banner .precio .mes{
+  font-size: 14px;
+  color: #FD6C98;
+  font-weight: 500;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -10px;
+}
+
+section.section-banner .texto-banner .lo-quiero .btn-orange{
+  background: #ff3d00;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 140px;
+  margin-top: 10px;
+}
+
+section.section-banner .texto-banner .lo-quiero .btn-orange:hover{
+  background-color: #fff;
+  border-color: #ff3d00;
+  color: #ff3d00;
+  text-decoration: none;
+}
+
+/* SECTION 01 */
+
+.nav-link.active {
+  position: relative; 
+}
+
+.nav-link.active:after {
+  position: absolute;
+  content: '';
+  bottom: -8px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 80px;
+  height: 8px;
+  background: #FD6C98;
+  border-radius: 8px 8px 0px 0px;
+}
+
+section.tabs-nav .nav-tabs {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 6px 12px rgb(25 25 25 / 8%);
+    border-radius: 16px;
+    padding: 20px 0px 10px 0px;
+}
+
+section.tabs-nav .nav-tabs .nav-item.middle {
+  position: relative;
+}
+
+section.tabs-nav .nav-tabs .nav-item.middle:after {
+  position: absolute;
+  content: '';
+  height: 30px;
+  bottom: 20px;
+  margin: 0 auto;
+  right: 0;
+  width: 1px;
+  background: #979797;
+}
+
+section.tabs-nav .nav-tabs .nav-item.middle:before {
+  position: absolute;
+  content: '';
+  height: 30px;
+  bottom: 20px;
+  margin: 0 auto;
+  left: 0;
+  width: 1px;
+  background: #979797;
+}
+
+section.tabs-nav .nav-tabs .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  height: 100%;
+  color: #979797;
+}
+
+section.tabs-nav .nav-tabs .nav-item .nav-link picture img {
+  width: 25px;
+  height: 25px;
+  margin: 0px 3px 5px 0px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #002EFF !important;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+section.tabs-nav .tab-content .tab-pane .up-text {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #191919;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto {
+  background-color: #fff;
+  width: auto;
+  height: 400px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* CARD SECCION 1 */
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15%;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-1 .doble-pack {
+  display: flex;
+  background-color: #002EFF;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  height: 100%;
+  border-radius: 16px 0px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-1 .doble-pack b{
+  margin-left: 4px;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-1 .mas-vendidos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-1 .mas-vendidos img{
+  height: 50px;
+  width: 75px;
+}
+
+/* CARD SECCION 2 */
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-2 {
+  height: 15%;
+  display: flex;
+  margin: 0px 0px -7px 25px;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-2 p {
+  font-size: 36px;
+  font-weight: 500;
+  color: #191919;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-2 .mes {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #191919;
+}
+
+/* CARD SECCION 3 */
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-3 {
+  height: 5%;
+  display: flex;
+  color: #5D5D5D;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+/* CARD SECCION 4 */
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  margin-top: 21px;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 .section-4-left {
+  margin-left: 20px;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 .section-4-right {
+  margin-right: 20px;
+  position: relative;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 .section-4-right::before {
+  position: absolute;
+  content: '';
+  height: 40px;
+  top: 0px;
+  margin: 0 auto;
+  left: 0;
+  width: 1px;
+  background: #979797;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 .section-4-left,
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 .section-4-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 .section-4-left img,
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 .section-4-right img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 .section-4-left p,
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-4 .section-4-right p {
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #191919;
+  font-weight: 400;
+}
+
+/* CARD SECCION 5 */
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-5 {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #191919;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#color-azul {
+  color: #002EFF;
+}
+
+#bg-gris {
+  background-color: #f2f2f2;
+}
+
+#overline {
+  text-decoration:line-through ;
+}
+
+section.tabs-tipo .tab-content .tab-pane .card-personalizado .card-personalizado-gris p {
+  margin-right: 2px;
+}
+
+/* CARD SECCION 6 */
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-6 {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-6 p {
+  font-size: 14px;
+  margin: 0px 1px 10px 1px;
+  color: #191919;
+  font-weight: 400;
+}
+
+/* CARD SECCION 7 */
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-7 {
+  width: 100%;
+  height: 26%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-7 .btn-orange{
+  background: #ff3d00;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 160px;
+  height: 45px;
+}
+
+section.tabs-nav .tab-content .tab-pane .card-producto .card-section-7 .btn-orange:hover{
+  background-color: #fff;
+  border-color: #ff3d00;
+  color: #ff3d00;
+  text-decoration: none;
+}
+
+
+/* SECTION 02 */
+
+section.section-2 {
+  margin-bottom: 60px;
+}
+
+section.section-2 .left-title h2, section.section-2 .right-title h2{
+  text-align: left;
+  font-family: Barlow;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #000;
+  margin: 15px 0px;
+  padding: 5px;
+}
+
+section.section-2 .left-title h2 b{
+  color: #002EFF;
+}
+
+section.section-2 .cards-left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section.section-2 .cards-left .card-wifi {
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid rgba(204, 204, 204, 0.5);
+  width: 100%;
+  height: 200px;
+  margin: 5px 0px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.section-2 .cards-left .card-wifi .card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+section.section-2 .cards-left .card-wifi .card-title h4 {
+  font-size: 18;
+  font-weight: 500;
+  color: #191919;
+  text-align: center;
+}
+
+section.section-2 .cards-left .card-wifi .card-title img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+section.section-2 .cards-left .card-wifi .card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.section-2 .cards-left .card-wifi .card-text p {
+  color: #191919;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+section.section-2 .cards-left .card-wifi .card-text .btn-white{
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  width: 130px;
+  height: 35px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+section.section-2 .cards-left .card-wifi .card-text .btn-green{
+  text-align: center;
+  background-color: #42E8B4;
+  color: #000;
+  width: 200px;
+  height: 35px;
+  margin-top: 15px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+section.section-2 .slider-right {
+  margin: 20px 0px;
+}
+
+.slick-dots {
+  margin: 0px 10px 0px 0px;
+  text-align: right;
+}
+
+.slick-dots li button::before {
+  color: rgb(153, 153, 153);
+}
+
+.slick-dots li.slick-active button:before {
+  color: #999999;
+}
+
+/* MEDIA QUERYS */
+
+@media only screen and (min-width: 321px) {
+  section.tabs-nav .tab-content .tab-pane .card-producto .card-section-5 {
+    font-size: 14px;
+  }
+
+  section.tabs-nav .nav-tabs .nav-item .nav-link p {
+    padding: 0px 5px;
+  }
+}
+
+@media only screen and (min-width: 411px) {
+  section.tabs-nav .nav-tabs .nav-item .nav-link p {
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  section.tabs-tipo .tab-content .tab-pane .card-personalizado {
+    margin: 13px 1vw 13px 1vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 800px) {
+  
+}
+
+@media only screen and (min-width: 992px) {
+  
+}
+
+@media only screen and (min-width: 1023px) {
+
+  section.section-banner {
+    margin: 0px 0px 10px 0px;
+  }
+
+  section.section-banner {
+    background-image: url(../img/png/banner-responsive.png);
+  }
+
+  section.tabs-tipo .tab-content .tab-pane .up-text {
+    justify-content: flex-start;
+    padding: 30px 0px;
+    font-size: 24px;
+    margin-left: 20px;
+  }
+
+  section.section-2 .cards-left .card-wifi {
+    height: 250px;
+    padding: 10px;
+  }
+
+  section.section-banner .texto-banner .instalacion-gratis {
+    justify-content: flex-end;
+  }
+
+  section.section-banner h2, h4 {
+    text-align: end;
+  }
+
+  section.section-banner .texto-banner .precio .col {
+    justify-content: flex-end;
+  }
+
+  section.tabs-nav .nav-tabs .nav-item .nav-link {
+    flex-direction: row;
+  }
+
+  section.section-2 .cards-left .card-wifi .card-text .btn-green {
+    width: 170px;
+    height: 35px;
+}
+
+  section.tabs-nav .nav-tabs {
+    margin: 0px 15vw;
+  }
+
+  .nav-link.active:after {
+    width: 211px;
+    height: 8px;
+  }
+}
+
+@media only screen and (min-width: 1279px) {
+
+  section.section-2 .cards-left .card-wifi {
+    height: 215px;
+    padding: 10px;
+  }
+
+}
